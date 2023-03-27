@@ -1,0 +1,185 @@
+.box .boxOne{
+  display: flex;
+  gap: 20px;
+}
+.box .boxOne .flex-1{
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.box .boxOne .flex-1 img{
+  width: 150px;
+  margin-top: 20px;
+}
+.box .boxOne .flex-1 h3{
+  width: 100%;
+  font-size: 25px;
+  font-weight: normal;
+}
+.box .boxOne .flex-1 span{
+  color: var(--grey-color);
+  font-size: 17px;
+  display: block;
+}
+.box .boxOne .flex-1 .line{
+  margin-top: 20px;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 5px;
+  background-color: #ccc;
+}
+.box .boxOne .flex-1 .line .wi-70{
+    border-radius: 5px;
+  width: 70%;
+  height: 100%;
+  background-color: var(--blue-alt-color);
+}
+.box .boxOne .flex-1 .s-last{
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--grey-color);
+}
+.box .boxOne .flex-1 .icon{
+  margin-top: 35px;
+}
+.box .boxOne .flex-1 .icon i{
+  color: var(--orange-color);
+}
+.box .boxOne .flex-2{
+  flex: 3;
+  border-left: 2px solid #cccccc71;
+}
+.box .boxOne .flex-2 div{
+  padding-left: 15px;
+}
+.box .boxOne .flex-2 {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.box .boxOne .flex-2 .span-style {
+  min-width: 100%;
+  font-size: 18px;
+}
+.box .boxOne .flex-2 .fahter-1 {
+  min-width: 100%;
+  padding-bottom: 10px;
+}
+.box .boxOne .flex-2 .fahter-1:not(:last-child){
+  border-bottom: 2px solid #cccccc71;
+}
+.box .boxOne .flex-2 .fahter-1 .text{
+  display: flex;
+  gap: 5px;
+  min-width: 250px;
+}
+.box .boxOne .flex-2 .fahter-1 .text div{
+  display: flex;
+  gap: 5px;
+  padding: 0;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 250px;
+}
+.box .boxOne .flex-2 div  div span{
+  color:var(--grey-color);
+}
+.check {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.boll {
+  background-color: #ccc;
+  width: 78px;
+  height: 20px;
+  border-radius: 15px;
+  position: relative;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.boll::before {
+  font-family: var(--family);
+  content: "\f00d";
+  font-size: 12px;
+  width: 11px;
+  height: 11px;
+  background-color: white;
+  border-radius: 50%;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  color: #ccc;
+  transition: 0.4s;
+}
+
+.check:checked+.boll {
+  background-color: var(--blue-alt-color);
+}
+
+.check:checked+.boll::before {
+  content: "\f00c";
+  left: 80%;
+  color: var(--blue-alt-color);
+}
+/* ===================last-boxs============================ */
+.last-boxs{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.last-boxs .flex-one{
+  flex: 1;
+}
+.last-boxs .flex-one div{
+  padding: 20px 5px;
+}
+.last-boxs .flex-one div:not(:last-child){
+  border-bottom: 1px solid #cccccc70;
+}
+.last-boxs .flex-one div span{
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 3px 8px;
+  margin: 8px;
+  background-color: #cccccc70;
+}
+.last-boxs .flex-two{
+  flex: 2;
+}
+.last-boxs .flex-two div img{
+  width: 70px;
+}
+.last-boxs .flex-two .flex:not(:last-child){
+  border-bottom: 2px solid #cccccc70;
+}
+.last-boxs .flex-two .flex{
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.last-boxs .flex-two .flex p{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.last-boxs .flex-two .flex span{
+  margin-top: 0px;
+}
+.last-boxs .flex-two .flex .taem{
+  position: absolute;
+  right: 10px;
+}

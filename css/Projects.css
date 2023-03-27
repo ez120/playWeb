@@ -1,0 +1,93 @@
+/* ===================start-boxOne============================ */
+.boxs .boxOne{
+  position: relative;
+}
+.boxs .boxOne .top-r{
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.boxs .boxOne div img{
+  margin-top: 20px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.boxs .boxOne p{
+  font-size: 17px;
+  font-weight: 600;
+}
+.boxs .boxOne div {
+  position: relative;
+}
+.boxs .boxOne div .img2{
+  position: absolute;
+  left: 25px;
+}
+.boxs .boxOne div .img3{
+  position: absolute;
+  left: 50px;
+}
+.boxs .boxOne div .img4{
+  position: absolute;
+  left: 75px;
+}
+.boxs .boxOne div .img5{
+  position: absolute;
+  left: 100px;
+}
+.boxs .boxOne .pro{
+  margin:15px 0 ;
+  padding: 15px 0px;
+  border-top: 2px solid #cccccc73;
+  border-bottom: 2px solid #cccccc73;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 13px;
+}
+.boxs .boxOne .pro span{
+  padding: 5px 8px;
+  background-color: #cccccc73;
+  border-radius: 5px;
+}
+.boxs .boxOne .last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.boxs .boxOne .last div{
+  width: 50%;
+  height: 8px;
+  border-radius: 10px;
+  background-color: #cccccc73;
+}
+.boxs .boxOne .last div span{
+  border-radius: 10px;
+  display: block;
+  width: 50%;
+  height: 100%;
+  background-color: var(--green-color);
+}
+.boxs .boxOne .last div .red{
+  background-color: var(--red-color);
+  width: 70%;
+}
+.boxs .boxOne .last div .blue{
+  background-color: var(--blue-color);
+  width: 100%;
+}
+.boxs .boxOne .last div .red45{
+  background-color: var(--red-color);
+  width: 45%;
+}
+.boxs .boxOne .last div .green80{
+  width: 80%;
+}
+.boxs .boxOne .last div .green70{
+  width: 70%;
+}
+.boxs .boxOne .last div .green95{
+  width: 95%;
+}
+/* ===================end-boxOne============================ */

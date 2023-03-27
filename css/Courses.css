@@ -1,0 +1,52 @@
+.all .box-3 .box{
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+.all .box-3 .box .imges{
+  position: relative;
+}
+.all .box-3 .box .imges .boll-img{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border:3px solid white;
+}
+.all .box-3 .box .imges .img-cover{
+  border-radius: 10px 10px 0px 0px; 
+  width: 100%;
+}
+.all .box-3 .box .father-2 {
+  padding: 8px 15px;
+}
+.all .box-3 .box .father-2 .text p{
+  font-size: 18px;
+  font-weight: 600;
+}
+.all .box-3 .box .father-2 .text span{
+  padding: 3px 10px;
+  line-height: 1.6;
+}
+.all .box-3 .box .father-2 .info {
+  margin-top: 25px;
+padding-top: 5px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-top: 1px solid #ccc;
+}
+.all .box-3 .box .father-2 .infoes{
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px;
+  position: absolute;
+  color: white;
+  padding: 3px 8px;
+  font-size: 13px;
+  background-color: var(--blue-alt-color);
+  border-radius: 5px;
+}
